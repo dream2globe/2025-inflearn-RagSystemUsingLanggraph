@@ -1,0 +1,19 @@
+[project]
+name = "inflean-al-agent-rag-system-using-langrage"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.25.0",
+    "langchain-community>=0.3.27",
+    "langchain-google-genai>=2.1.7",
+    "langgraph>=0.5.2",
+    "python-dotenv>=1.1.1",
+    "wikipedia>=1.4.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
